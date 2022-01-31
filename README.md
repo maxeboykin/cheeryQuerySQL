@@ -7,3 +7,10 @@ SELECT first_name, last_name, email FROM customer;
 SELECT * FROM customer
 
 SELECT FIRST_name || ' ' || last_name FROM customer; //this is concatenating into one column
+
+
+column aliases 
+
+SELECT column_name AS alias_name FROM table_name;
+same thing above as below...
+SELECT column_name alias_name FROM table_name; 
